@@ -19,14 +19,6 @@ import { toast } from 'sonner';
 import { addCar, processCarImageWithAI } from '@/actions/cars';
 import useFetch from '@/hooks/use-fetch';
 import { useRouter } from 'next/navigation';
-import { createClient } from '@/lib/supabase';
-import { auth } from '@clerk/nextjs/server';
-import { revalidatePath } from 'next/cache';
-import { GoogleGenerativeAI } from '@google/generative-ai';
-import { v4 as uuidv4 } from 'uuid';
-import { Buffer } from 'buffer';
-import { db } from '@/lib/prisma';
-import { getAdmin } from '@/actions/admin';
 import { useEffect } from 'react';
 
 const fuelTypes = ["Petrol", "Diesel", "Electric", "Hybrid", "Plug-in Hybrid"];
