@@ -59,7 +59,5 @@ Veylo is a next-generation AI-powered vehicle marketplace. Easily buy, sell, and
 ## Deployment
 - Deploy easily on Vercel or your preferred platform.
 
-## License
-MIT
 
 
